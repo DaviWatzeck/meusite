@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Davi - Desenvolvedor Full-Stack com experiência em criação de sites e sistemas web personalizados para seu negócio">
+  <meta name="keywords" content="desenvolvedor, full-stack, web, portfolio, davi, freelancer, sites, sistemas">
+  <meta name="author" content="Davi">
+  <meta name="theme-color" content="#4361ee">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta property="og:title" content="Davi | Desenvolvedor Full-Stack">
+  <meta property="og:description" content="Desenvolvedor Full-Stack apaixonado por criar soluções únicas e funcionais para seu negócio">
+  <meta property="og:image" content="https://via.placeholder.com/1200x630">
+  <meta property="og:url" content="https://seudominio.com">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://seudominio.com">
+  
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='gradient' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%234361ee' /%3E%3Cstop offset='100%25' stop-color='%23805dca' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100' height='100' rx='20' fill='%230e1726' /%3E%3Cpath d='M30 25h25c15 0 25 10 25 25s-10 25-25 25H30V25z' fill='none' stroke='url(%23gradient)' stroke-width='5' /%3E%3Cpath d='M40 40h15c5 0 10 5 10 10s-5 10-10 10H40V40z' fill='url(%23gradient)' /%3E%3C/svg%3E">
+  <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='gradient' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%234361ee' /%3E%3Cstop offset='100%25' stop-color='%23805dca' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100' height='100' rx='20' fill='%230e1726' /%3E%3Cpath d='M30 25h25c15 0 25 10 25 25s-10 25-25 25H30V25z' fill='none' stroke='url(%23gradient)' stroke-width='5' /%3E%3Cpath d='M40 40h15c5 0 10 5 10 10s-5 10-10 10H40V40z' fill='url(%23gradient)' /%3E%3C/svg%3E">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" as="style">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Davi | Desenvolvedor Full-Stack</title>
+</head>
+<body>
+
+  <div class="main-container">
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-logo">
+        <div class="logo-wrapper">
+          <!-- SVG Logo inline -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 100 100" class="logo-svg">
+            <defs>
+              <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#4361ee" />
+                <stop offset="100%" stop-color="#805dca" />
+              </linearGradient>
+            </defs>
+            <rect width="100" height="100" rx="20" fill="none" />
+            <path d="M30 25h25c15 0 25 10 25 25s-10 25-25 25H30V25z" fill="none" stroke="url(#logoGradient)" stroke-width="5" />
+            <path d="M40 40h15c5 0 10 5 10 10s-5 10-10 10H40V40z" fill="url(#logoGradient)" />
+          </svg>
+          <span class="logo">Davi</span>
+        </div>
+        <button class="sidebar-toggle" id="sidebar-toggle" aria-label="Alternar Menu">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+      </div>
+      
+      <ul class="menu" role="menu">
+        <li class="menu-item">
+          <a href="#home" class="menu-link active">
+            <span class="menu-icon"><i class="fas fa-home"></i></span>
+            <span class="menu-text">Início</span>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#sobre" class="menu-link">
+            <span class="menu-icon"><i class="fas fa-user"></i></span>
+            <span class="menu-text">Sobre Mim</span>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#servicos" class="menu-link">
+            <span class="menu-icon"><i class="fas fa-briefcase"></i></span>
+            <span class="menu-text">Serviços</span>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#projetos" class="menu-link">
+            <span class="menu-icon"><i class="fas fa-project-diagram"></i></span>
+            <span class="menu-text">Projetos</span>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#skills" class="menu-link">
+            <span class="menu-icon"><i class="fas fa-laptop-code"></i></span>
+            <span class="menu-text">Skills</span>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#contato" class="menu-link">
+            <span class="menu-icon"><i class="fas fa-envelope"></i></span>
+            <span class="menu-text">Contato</span>
+          </a>
+        </li>
+      </ul>
+    </aside>
+    
+    <!-- Header -->
+    <header class="header" id="header">
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Menu Mobile">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="header-content">
+        <h1 class="page-title" id="page-title">Dashboard</h1>
+        <div class="header-actions">
+          <a href="https://github.com/DaviWatzeck/" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="social-link">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/davi-watzeck" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-link">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+    
+    <!-- Conteúdo Principal -->
+    <main class="main-content" id="main-content">
+
+      <!-- Hero Section (Minimalista) -->
+      <section id="home" class="hero hero-minimal">
+        <div class="hero-content">
+          <h1 class="animate-fade">Davi Watzeck</h1>
+          <p class="animate-slide-up">Desenvolvedor Full-Stack</p>
+        </div>
+      </section>
+
+      <!-- Sobre Section -->
+      <section id="sobre" class="section">
+        <h2 class="section-title">Sobre Mim</h2>
+        <div class="card">
+          <div class="card-body">
+            <div class="about-content">
+              <div class="about-text">
+                <p>Tenho 21 anos, sou um desenvolvedor full-stack, autodidata, responsável e extremamente compromissado com o que faço.</p>
+                <p>Gosto de estar sempre aprendendo coisas novas e trabalhando em projetos paralelos que desafiam minha criatividade e habilidades técnicas.</p>
+                <p>Minha abordagem combina código eficiente com uma experiência do usuário excepcional, garantindo que cada projeto não apenas funcione perfeitamente, mas também encante os usuários.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Serviços Section -->
+      <section id="servicos" class="section">
+        <h2 class="section-title">O que eu faço</h2>
+        <div class="grid grid-3">
+          <div class="service-card card-animate">
+            <div class="service-icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <h3>Desenvolvimento Web</h3>
+            <p>Criação de sites modernos, responsivos e otimizados para SEO, proporcionando uma excelente experiência ao usuário.</p>
+          </div>
+          <div class="service-card card-animate">
+            <div class="service-icon">
+              <i class="fas fa-database"></i>
+            </div>
+            <h3>Sistemas Completos</h3>
+            <p>Desenvolvimento de aplicações web completas, desde o backend até o frontend, com foco em desempenho e segurança.</p>
+          </div>
+          <div class="service-card card-animate">
+            <div class="service-icon">
+              <i class="fas fa-lightbulb"></i>
+            </div>
+            <h3>Consultoria Técnica</h3>
+            <p>Análise e otimização de projetos existentes, oferecendo soluções para melhorar performance e usabilidade.</p>
+          </div>
+          <div class="service-card card-animate">
+            <div class="service-icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <h3>Suporte Técnico de Hardware</h3>
+            <p>Montagem de computadores, formatação, instalação e troca de peças, remoção de vírus, recuperação de dados e revisão técnica completa.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projetos Section -->
+      <section id="projetos" class="section">
+        <h2 class="section-title">Projetos</h2>
+        <p>Aqui estão alguns dos meus projetos que desenvolvi sozinho, demonstrando minhas habilidades e expertise.</p>
+        <div class="grid grid-2">
+          <div class="project-card card-animate">
+            <div class="project-img">
+              <div class="project-icon">
+                <i class="fas fa-file-code"></i>
+              </div>
+              <div class="project-overlay">
+                <div class="overlay-content">
+                  <h4>Sistema eSocial</h4>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Sistema de Retificação eSocial</h3>
+              <p>Desenvolvi um sistema corporativo que permite fazer a retificação e retransmissão dos arquivos S-1010, S-1200, S-1210, S-1298, S-1299, S-2299, S-2399 e S-3000 para gerar créditos à empresa. Implementado com Python e API, também desenvolvi uma interface web para facilitar o uso.</p>
+              <div class="project-tags">
+                <span class="project-tag">Python</span>
+                <span class="project-tag">API</span>
+                <span class="project-tag">Web</span>
+                <span class="project-tag">eSocial</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card card-animate">
+            <div class="project-img">
+              <div class="project-icon">
+                <i class="fas fa-gamepad"></i>
+              </div>
+              <div class="project-overlay">
+                <div class="overlay-content">
+                  <a href="https://daviwatzeck.github.io" target="_blank" class="btn btn-primary">Ver Projeto</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>RPGame - Jogo de Navegador</h3>
+              <p>Estou desenvolvendo um jogo de RPG para navegador. O projeto inclui a criação das artes, história, mecânica de combate e todos os aspectos do desenvolvimento. Um projeto pessoal ambicioso ainda em andamento.</p>
+              <div class="project-tags">
+                <span class="project-tag">JavaScript</span>
+                <span class="project-tag">HTML/CSS</span>
+                <span class="project-tag">Game Design</span>
+                <span class="project-tag">RPG</span>
+              </div>
+              <div class="project-link">
+                <a href="https://daviwatzeck.github.io" target="_blank" rel="noopener noreferrer">
+                  <i class="fas fa-external-link-alt"></i> Visitar Projeto
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="section">
+        <h2 class="section-title">Minhas Skills</h2>
+        <div class="grid grid-3">
+          <div class="skill-category card-animate">
+            <h3>Frontend</h3>
+            <ul class="skill-list">
+              <li>HTML5 & CSS3</li>
+              <li>JavaScript (ES6+)</li>
+              <li>React / Vue.js</li>
+              <li>Responsive Design</li>
+              <li>CSS Frameworks (Bootstrap, Tailwind)</li>
+            </ul>
+          </div>
+          <div class="skill-category card-animate">
+            <h3>Backend</h3>
+            <ul class="skill-list">
+              <li>Python</li>
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>REST APIs</li>
+              <li>GraphQL</li>
+            </ul>
+          </div>
+          <div class="skill-category card-animate">
+            <h3>Outros</h3>
+            <ul class="skill-list">
+              <li>Git & GitHub</li>
+              <li>MongoDB, MySQL</li>
+              <li>AWS, Firebase</li>
+              <li>Docker</li>
+              <li>Testing (Jest, Cypress)</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contato Section -->
+      <section id="contato" class="section">
+        <h2 class="section-title">Vamos trabalhar juntos?</h2>
+        <div class="contact-container animate-slide-up">
+          <p>Estou disponível para novos projetos e desafios! Entre em contato para discutirmos como posso ajudar a transformar suas ideias em realidade.</p>
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <a href="mailto:davi_watzeck@hotmail.com" class="contact-link">E-mail</a>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fab fa-linkedin"></i>
+              </div>
+              <a href="https://www.linkedin.com/in/davi-watzeck" target="_blank" rel="noopener noreferrer" class="contact-link">LinkedIn</a>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fab fa-github"></i>
+              </div>
+              <a href="https://github.com/DaviWatzeck/" target="_blank" rel="noopener noreferrer" class="contact-link">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="footer-content">
+          <p class="copyright">&copy; 2025 Davi Watzeck. Todos os direitos reservados.</p>
+          <div class="social-links">
+            <a href="https://github.com/DaviWatzeck/" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="social-link">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/davi-watzeck" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-link">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </footer>
+
+    </main>
+  </div>
+
+  <!-- Chat flutuante para orçamento -->
+  <div class="chat-widget" id="chat-widget">
+    <div class="chat-button" id="chat-button">
+      <i class="fas fa-comments"></i>
+    </div>
+    <div class="chat-box" id="chat-box">
+      <div class="chat-header">
+        <h3>Precisa de ajuda?</h3>
+        <button class="chat-close" id="chat-close"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="chat-body">
+        <div class="chat-message">
+          <p>Olá! Posso ajudar com algum serviço?</p>
+        </div>
+        <div class="chat-options">
+          <button class="chat-option" data-service="Desenvolvimento Web">Desenvolvimento Web</button>
+          <button class="chat-option" data-service="Sistemas Completos">Sistemas Completos</button>
+          <button class="chat-option" data-service="Consultoria Técnica">Consultoria Técnica</button>
+          <button class="chat-option" data-service="Montagem de Computador">Montagem de Computador</button>
+          <button class="chat-option" data-service="Formatação">Formatação</button>
+          <button class="chat-option" data-service="Troca de Peças">Troca de Peças</button>
+          <button class="chat-option" data-service="Remoção de Vírus">Remoção de Vírus</button>
+          <button class="chat-option" data-service="Recuperação de Dados">Recuperação de Dados</button>
+          <button class="chat-option" data-service="Revisão Técnica">Revisão Técnica</button>
+          <button class="chat-option" data-service="Outro Serviço">Outro Serviço</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
