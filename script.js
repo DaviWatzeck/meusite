@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
   };
 
   // Número de telefone para WhatsApp
-  const whatsappNumber = '5511914319821';
+  const whatsappNumber = '5511952339356';
 
   // Alterna o estado da sidebar
   function toggleSidebar() {
