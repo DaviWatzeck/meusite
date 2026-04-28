@@ -1,0 +1,16 @@
+{
+  "name": "Davi Watzeck",
+  "short_name": "Davi Watzeck",
+  "description": "Sistemas web, plataformas B2B, automações e integrações com foco em operação crítica.",
+  "start_url": "/meusite/",
+  "display": "standalone",
+  "background_color": "#131313",
+  "theme_color": "#131313",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

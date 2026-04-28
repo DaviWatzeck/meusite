@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://daviwatzeck.github.io/meusite/sitemap.xml
