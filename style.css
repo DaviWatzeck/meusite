@@ -367,6 +367,8 @@ button {
 
 .portrait-card {
   position: relative;
+  width: min(100%, 380px);
+  justify-self: center;
 }
 
 .portrait-card::before {
